@@ -39,3 +39,8 @@ This project allows real-time control of external machines (e.g., motors) using 
 
 ```bash
 python proj_1.py
+```
+
+## 📋 Summary
+
+This project integrates **MediaPipe** and **Arduino** to provide a real-time hand-controlled interface for managing external devices. The system captures video frames from a webcam and processes them using MediaPipe’s hand tracking model to detect the presence and type of hand gestures. Based on the detected hand (left, right, or both), specific commands are sent to an Arduino board via serial communication to control external devices like motors or LEDs. The project also provides real-time visual feedback on the screen, displaying messages such as “Both Hands,” “Left Hand,” or “Right Hand” depending on the detection. This interface allows for intuitive and interactive human-machine interaction, with potential applications in robotics and automation systems.
